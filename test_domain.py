@@ -54,7 +54,7 @@ async def test_domain():
     async with async_playwright() as handelIrnicIdَAPi_IDInIranserver:
         request_context = await handelIrnicIdَAPi_IDInIranserver.request.new_context()
         domain_service = DomainService(request_context)
-        notValidIrnicIds = ['greenwebdomains@iranserver.com' , 'mm61-irnic','gr62-irnic']
+        notValidIrnicIds = ['1' , '2','3']
         response = await domain_service.valid_handle_IrnicId(notValidIrnicIds)
         await request_context.dispose()
 
