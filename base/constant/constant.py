@@ -1,0 +1,8 @@
+SLASH = "/"
+VERSION1 = "v1"
+VERSION2 = "v2"
+USER_ENTITY = "users"
+CSR_ENTITY ="csr"
+SSL_ENTITY = "ssl"
+SSLADMIN_ENTITY = "admin"
+DOMAIN_ENTITY ="domain"
