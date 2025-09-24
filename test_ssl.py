@@ -24,7 +24,7 @@ async def test_ssl():
             country="IR",
             state="Tehran",
             locality="Tehran",
-            organization="greenweb",
+            organization="green",
             organizationalUnit="product",
             domain="sslcreateftmtstauto.com"
         )
