@@ -1,0 +1,33 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Playwright test outputs
+test-results/
+playwright-report/
+blob-report/
+*.zip
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
